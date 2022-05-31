@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./modern-normalize/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- шапка -->
+    <header class="header">
+      <div class="container header-wrapper">
+        <!-- навигация -->
+        <nav class="header-nav">
+          <a href="#" class="logo">Web<span class="header-studio">Studio</span></a>
+          <ul class="site-nav list">
+            <li class="site-nav-item">
+              <a href="./index.html" class="site-nav-link">Студия</a>
+            </li>
+            <li class="site-nav-item">
+              <a href="#" class="site-nav-link current">Портфолио</a>
+            </li>
+            <li class="site-nav-item">
+              <a href="#" class="site-nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li class="auth-nav-item">
+            <a class="auth-nav-link" href="info@devstudio.com">
+              <svg class="icon-envelope" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="auth-nav-item">
+            <a class="auth-nav-link" href="tel:+380961111111">
+              <svg class="icon-smartphone" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- основное -->
+    <main>
+      <!-- секция примеры проектов -->
+      <section class="examples section">
+        <div class="container">
+          <h1 class="title-hidden">примеры</h1>
+          <ul class="filters filters-wrapper list">
+            <li class="filters-item">
+              <button class="filters-button button-active" type="button">Все</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-button" type="button">Веб-сайты</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-button" type="button">Приложения</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-button" type="button">Дизайн</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-button" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="list examples-wrapper">
+            <li class="item">
+              <a class="examples-link" href="#">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/texnokryak.jpg"
+                    alt="Пример проекта веб-сайта Технокряк"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Технокряк</h3>
+                  <p class="examples-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="examples-link">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/post-new-orlean-golden-star.jpg"
+                    alt="Пример дизайна постера New Orlean vs Golden Star"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Постер New Orlean vs Golden Star</h3>
+                  <p class="examples-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="examples-link">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/restaurant-seafood.jpg"
+                    alt="Пример приложения для ресторана Seafood"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Ресторан Seafood</h3>
+                  <p class="examples-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="examples-link">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/project-prime.jpg"
+                    alt="Пример проекта Prime"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Проект Prime</h3>
+                  <p class="examples-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="examples-link">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/project-boxes.jpg"
+                    alt="Проект приложения Boxes"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Проект Boxes</h3>
+                  <p class="examples-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="examples-link">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/inspiration-has-a-borders.jpg"
+                    alt="Проект веб-сайта Inspiration has no borders"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Inspiration has no Borders</h3>
+                  <p class="examples-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="examples-link">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/limited-edition.jpg"
+                    alt="Пример дизайна издания Limited Edition"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Издание Limited Edition</h3>
+                  <p class="examples-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="examples-link">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/project-lab.jpg"
+                    alt="Пример проекта LAB"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Проект LAB</h3>
+                  <p class="examples-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="examples-link" href="#">
+                <div class="examples-overlay">
+                  <img
+                    class="picture"
+                    src="./images/growing-business.jpg"
+                    alt="Проект приложения Growing Business"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="overlay-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="examples-title">Growng Business</h3>
+                  <p class="examples-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- футер -->
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <div>
+          <a class="logo" href="./index.html">Web<span class="footer-studio">Studio</span></a>
+          <address>
+            <ul class="address list">
+              <li class="item">
+                <a
+                  class="address-link"
+                  href="https://goo.gl/maps/dMJrHMzc6mi3SanNA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="item"><a class="link" href="info@devstudio.com">info@example.com</a></li>
+              <li class="item"><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="social-wrapper">
+          <h2 class="social-title">Присоединяйтесь</h2>
+          <ul class="social-list list">
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagramteam"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitterteam"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebookteam"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg class="social-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-linkedinteam"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe-wrapper">
+          <p class="subscribe-title">Подпишитесь на рассылку</p>
+          <form class="subscribe-form">
+            <input class="subscribe-input" type="email" name="email" placeholder="E-mail" />
+            <button class="subscribe-button" type="submit">
+              Подписаться
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
