@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --white-color: #ffffff;
   --primary-text-color: rgba(33, 33, 33, 1);
   --secondary-text-color: rgba(117, 117, 117, 1);
@@ -44,18 +44,18 @@
   --checkbox-button-hover-color: #188ce8;
 
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-/* list */
+/* list
 .list {
   padding: 0;
   margin: 0;
 
   list-style: none;
-}
+} */
 
 /* скрыть заголовки*/
-.title-hidden {
+/* .title-hidden {
   position: absolute;
 
   width: 1px;
@@ -69,7 +69,7 @@
   clip: rect(0 0 0 0);
 
   overflow: hidden;
-}
+} */
 
 /* .checkbox-hidden {
   position: absolute;

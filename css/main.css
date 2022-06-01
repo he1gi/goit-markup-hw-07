@@ -314,7 +314,19 @@ body {
   font-size: 14px;
 }
 
-.site-nav, .auth-nav, .features__wrapper, .activity__wrapper, .team__wrapper, .clients__wrapper, .address, .social__list, .filters, .examples__wrapper {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-nav, .auth-nav, .features__wrapper, .activity__wrapper, .team__wrapper, .team__social, .clients__wrapper, .address, .social__list, .filters, .examples__wrapper {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -406,6 +418,10 @@ body {
 }
 
 .site-nav__link:hover, .site-nav__link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav__link--current {
   color: var(--accent-color);
 }
 
