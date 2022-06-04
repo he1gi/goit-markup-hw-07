@@ -1,8 +1,11 @@
+// utils
 @import "./utils/variables";
-@import "./base/normalize";
-@import "./base/base";
+@import "./utils/normalize";
 @import "./utils/placeholder";
+@import "./base/base";
+// layout
 @import "./layout/layout";
+// components
 @import "./components/header";
 @import "./components/logo";
 @import "./components/hero";

@@ -42,6 +42,8 @@
   --callbackform-agreemant-text: rgba(117, 117, 117, 1);
   --call-back-form-checkbox-border-color: rgba(33, 33, 33, 1);
   --checkbox-button-hover-color: #188ce8;
+  --main-font: Roboto,sans-serif;
+  --logo-font: Raleway,sans-serif;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -305,27 +307,6 @@ summary {
   display: list-item;
 }
 
-body {
-  color: var(--primary-text-color);
-  background-color: var(--white-color);
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .site-nav, .auth-nav, .features__wrapper, .activity__wrapper, .team__wrapper, .team__social, .clients__wrapper, .address, .social__list, .filters, .examples__wrapper {
   padding: 0;
   margin: 0;
@@ -365,6 +346,27 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .container {
@@ -476,7 +478,7 @@ ul {
 
 .logo {
   display: block;
-  font-family: Raleway, sans-serif;
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
